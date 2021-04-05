@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    background-color: #333;
+}
+
+li {
+    
+    display: inline;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 20px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover{
+    color:green;
+}
+
+#Section1:hover , #Section2:hover, #Section3:hover , #Section4:hover {
+    height: 500px !important;
+    transition: width 2s, height 5s !important;
+}
